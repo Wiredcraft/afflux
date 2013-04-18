@@ -1,0 +1,40 @@
+{
+    "name": "afflux-server",
+    "version": "0.0.1",
+    "description": "afflux-server.js is a server log message that dispatch log messages to differents storage with the help of a router.",
+    "main": "index.js",
+    "keywords" : [
+	"logging",
+	"logman",
+	"logger",
+	"log",
+	"afflux",
+	"zeromq",
+	"fluentd",
+	"realtime",
+	"messagebus",
+	"axon"	
+    ],
+    "scripts" : {
+	"start" : "node ./examples/server.js"
+    },
+    "dependencies" : {
+	"axon" : "*",
+	"redis" : "*",
+	"debug" : "*"
+    },
+    "devDependencies" : {
+	"mocha" : "*",
+	"should" : "*"
+    },
+    "readmeFilename": "README.md",
+    "engines": {
+	"node": "*"
+    },
+    "repository": {
+	"type": "git",
+	"url": "git://github.com/Alexandre-Strzelewicz/MessageBus.js.git"
+    },
+    "author": "",
+    "license": "MIT"
+}
